@@ -1,0 +1,5 @@
+lookup-time-seconds: 1209600 # 14 days
+salt: "put-something-random-here"
+messages:
+  block-history-top: "&7[&f%n%&7] &faction &7> &bFingerprint"
+  block-history-entry: "&7[&f%index%&7] %action% %type% &7> &b%hash%"

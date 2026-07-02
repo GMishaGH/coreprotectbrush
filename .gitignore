@@ -1,0 +1,9 @@
+.gradle/
+gradle/
+!gradle/wrapper/gradle-wrapper.jar
+*.log
+.idea/
+*.iml
+out/
+.kotlin/
+
