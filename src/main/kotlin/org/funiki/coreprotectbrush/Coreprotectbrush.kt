@@ -24,7 +24,7 @@ class BrushListener(private val plugin: Coreprotectbrush, val api: CoreProtectAP
         if (event.item?.type != Material.BRUSH) { return }
         if (event.action != Action.LEFT_CLICK_BLOCK) { return }
 
-        event.player.sendMessage(plugin.config.getString("messages.block-history-top")?: "admin debil")
+        event.player.sendMessage(plugin.config.getString("messages.block-history-top")?: "admin  debil")
 
         val block = event.clickedBlock ?: return
         val lookup = api.blockLookup(block, 60*60*24*14)
