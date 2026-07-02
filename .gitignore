@@ -6,5 +6,5 @@ gradle/
 *.iml
 out/
 .kotlin/
-build
+build/
 
