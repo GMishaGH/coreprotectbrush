@@ -4,9 +4,5 @@ version: '1.0-SNAPSHOT'
 main: org.funiki.coreprotectbrush.Coreprotectbrush
 api-version: '26.1.2'
 load: POSTWORLD
-dependencies:
-  server:
-    CoreProtect:
-      load: BEFORE
-      required: true
-      join-classpath: true
+depend:
+  - CoreProtect
