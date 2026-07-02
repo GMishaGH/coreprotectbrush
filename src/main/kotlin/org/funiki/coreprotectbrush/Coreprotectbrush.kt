@@ -60,7 +60,7 @@ class BrushListener(private val plugin: Coreprotectbrush, val api: CoreProtectAP
             val msg = ChatColor.translateAlternateColorCodes('&', raw)
             event.player.sendMessage(msg)
         }
-        playersBlocks[event.player.uniqueId.toString()]?: Pair(event.clickedBlock, iterValue)
+        playersBlocks[event.player.uniqueId.toString()] = Pair(block.location, iterValue)
     }
 
     @EventHandler
