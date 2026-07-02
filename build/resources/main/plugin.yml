@@ -1,8 +1,0 @@
-name: coreprotectbrush
-version: '1.0-SNAPSHOT'
-
-main: org.funiki.coreprotectbrush.Coreprotectbrush
-api-version: '26.1.2'
-load: POSTWORLD
-depend:
-  - CoreProtect
